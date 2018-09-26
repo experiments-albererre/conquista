@@ -1,0 +1,43 @@
+/*
+  Imagen1: https://manzdev.github.io/eoi-fullstack/css/stewie.png
+  Imagen2: https://manzdev.github.io/eoi-fullstack/css/stewie-seal.png
+*/
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Indie+Flower|Spirax');
+
+body {
+  background: grey;
+  background-image: url(https://img00.deviantart.net/60ce/i/2011/323/a/b/old_world_map_by_hanciong-d46qusd.png);
+}
+
+img {
+margin-top: 20px;
+margin-left: 400px;
+}
+
+.aviso {
+  background: #ffffff;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 50px;
+  width: 1000px;
+}
+
+div > :nth-child(1) {
+  font-family: Cedarville Cursive;
+  font-size: 40px;
+  letter-spacing: -3px;
+  color: red;
+  text-shadow: 0 0 5px rgba(0,0,0,.25),0 0 12px rgba(255,255,255,.75);
+} 
+
+p, ul, h4 {
+  font-family: Indie Flower;
+  font-size: 20px;
+  text-shadow: 0 0 7px rgba(0,0,0,.25),0 0 12px rgba(255,255,255,.75);
+}
+
+.iconito {
+    text-shadow: 0 0 7px rgba(0,0,0,.25),0 0 12px rgba(255,255,255,.75);
+
+}
